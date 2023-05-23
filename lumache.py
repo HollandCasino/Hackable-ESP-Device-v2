@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+hackable_esp_device.
 """
 
 __version__ = "0.1.0"
