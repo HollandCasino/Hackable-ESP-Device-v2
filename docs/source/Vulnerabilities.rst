@@ -1,3 +1,3 @@
-Kwetsbaarheden - OWASP IOT Top 10
+OWASP IOT top 10 - Kwetsbaarheden
 =====
 
