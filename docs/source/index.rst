@@ -18,5 +18,7 @@ Contents
 
 .. toctree::
 
+   introductie
    setup
    vurnabillitys
+   hints
