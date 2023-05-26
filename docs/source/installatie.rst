@@ -3,11 +3,21 @@ Installatie instructie
 Voordat je begint aan de installatie zorg er voor dat je over de volgende software en hardware beschikt.
 
 - Visual Studio Code.  (`Download <https://code.visualstudio.com/download>`_)
-- 1x ESP32 Micro Controller. 
+- 1x ESP Micro Controller. 
 - 1x USB naar USB-Micro kabel.
 
 
-[1] Installeer PlatformIO.
+[1] ESP Drivers
+----------------
+1. Wij gaan er vanuit dat je de `ESP D1 Mini <https://www.wemos.cc/en/latest/d1/index.html>`_ gebruikt
+
+2. Download de driver : https://www.wemos.cc/en/latest/ch340_driver.html
+
+3. Pak het zip-bestand uit en voer het "SETUP" bestand uit.
+
+4. Klik op install. De drivers zijn nu succesvol geïnstalleerd.
+
+[2] PlatformIO.
 ----------------
 1. Open VSCode Extension Manager.
 
@@ -16,7 +26,7 @@ Voordat je begint aan de installatie zorg er voor dat je over de volgende softwa
 3. Installeer `PlatformIO IDE <https://platformio.org/install/ide?install=vscode>`_.
 
 
-[2] Installeren Git en clone van repository.
+[2] Git en Clone van Repository.
 ----------------
 
 1. Ga naar https://git-scm.com/downloads en installeer de juiste versie voor jouw besturingssysteem.
@@ -63,8 +73,19 @@ De map **"HackableEspDevicePlatformio"** is nu aangemaakt. In de volgende stappe
 
 2. Kijk onder **"Project Tasks"** naar **"Platform"** en klik op **"Upload filesystem image"**.
 
-3. Nadat het programma klaar is in de terminal, klik onder **"General"** op **"Monitor"**.
+3. Nadat het programma klaar is in de terminal, klik onder **"General"** op **"Monitor"**. Als het programma klaar is staat er een **IP-Address deze heb je nodig in de volgende stap!**
 
 [5] Access Point Connect
 ----------------
+1. Verbindt je computer met het Wi-Fi netwerk **"Configure Smartlight WiFi"**.
+
+2. Je computer opent automatisch je browser, doet dit het niet? Ga nu met je browser naar het IP-Address die in de terminal staat. 
+
+3. Klik op **"Configure WiFi"**.
+
+4. Selecteer een WiFi netwerk waarvan je het wachtwoord weet en mee kan verbinden. Klik op **"Save"**.
+
+**LET OP: Voer je dit uit op school? Maak een WiFi Hotspot met je telefoon omdat Eduroam niet werkt.**
+
+5. Open VSCode en kijk in je terminal. In de terminal staat een nieuw IP-Address. **Dit IP-Address is de SmartLight website die jij vanaf nu kan pentesten!**
 
