@@ -65,7 +65,7 @@ De map **"HackableEspDevicePlatformio"** is nu aangemaakt. In de volgende stappe
 
 7. Ga naar de map met de geclonde bestanden en selecteer **"HackableEspDevicePlatformio"** (Die je in de eerste 3 stappen hebt aangemaakt)
 
-8. Klik op **"Open HackableEspDevicePlatformio"**
+8. Klik op **"Open HackableEspDevicePlatformio"**.
 
 [4] Flashen naar de ESP Controller.
 ----------------
