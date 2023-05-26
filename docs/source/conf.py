@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Hackable ESP Device'
+copyright = '2023, pieterjm'
+author = 'Cas Roozendaal'
 
 release = '0.1'
 version = '0.1.0'
