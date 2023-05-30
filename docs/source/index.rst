@@ -14,8 +14,9 @@ Contents
 --------
 
 .. toctree::
-
-   setup
    introductie
-   hints
+   setup
    vurnabillitys
+   hints
+   walkthrough
+
