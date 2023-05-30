@@ -1,6 +1,2 @@
 Walkthrough
 =====
-
-.. toctree::
-   introductie
-   setup
