@@ -7,5 +7,5 @@ De instructies in dit project zullen je helpen bij het verkrijgen van een kopie 
 We raden echter ten zeerste aan om ethisch hacken alleen uit te voeren binnen een gecontroleerde omgeving en met toestemming van de eigenaar van het systeem dat je onderzoekt. Het doel van dit project is om bewustzijn te creëren en je te helpen begrijpen hoe kwetsbaarheden kunnen worden misbruikt, zodat je betere beveiligingsmaatregelen kunt nemen.
 
 
-.. image:: https://github.com/HollandCasino/Hackable-ESP-Device-v2/blob/main/Hackable-IoT-LED-Controller-showcase.png
+.. image:: https://raw.githubusercontent.com/HollandCasino/Hackable-ESP-Device-v2/main/Hackable-IoT-LED-Controller-showcase.png
    :alt: Showcase
