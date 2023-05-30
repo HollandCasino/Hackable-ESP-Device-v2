@@ -89,7 +89,5 @@ De map **"HackableEspDevicePlatformio"** is nu aangemaakt. In de volgende stappe
 
 5. Open VSCode en kijk in je terminal. In de terminal staat een nieuw IP-Address. **Dit IP-Address is de SmartLight website die jij vanaf nu kan pentesten!**
 
-.. toctree::
-   introductie
 
 
