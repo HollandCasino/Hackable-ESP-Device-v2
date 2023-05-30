@@ -4,5 +4,4 @@ Hints
    introductie
    setup
    vurnabillitys
-   hints
    walkthrough
