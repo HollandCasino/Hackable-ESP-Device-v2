@@ -1,5 +1,2 @@
 Vulnerabilitys
 =====
-.. toctree::
-   introductie
-   setup
