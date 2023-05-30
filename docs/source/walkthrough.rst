@@ -8,4 +8,3 @@ Walkthrough
    setup
    vurnabillitys
    hints
-   walkthrough
