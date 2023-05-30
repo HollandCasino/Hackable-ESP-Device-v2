@@ -91,7 +91,5 @@ De map **"HackableEspDevicePlatformio"** is nu aangemaakt. In de volgende stappe
 
 .. toctree::
    introductie
-   vurnabillitys
-   hints
-   walkthrough
+
 
