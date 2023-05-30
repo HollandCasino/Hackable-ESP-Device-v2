@@ -1,5 +1,2 @@
 Introductie
 =====
-
-.. toctree::
-   setup
