@@ -16,7 +16,7 @@ Contents
 .. toctree::
    introductie
    setup
-   vurnabillitys
+   vulnerbillities
    hints
    walkthrough
 
