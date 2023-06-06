@@ -13,13 +13,13 @@ De OWASP IoT Top 10 bestaat uit de volgende categorieën
 - Lack of Device Management
 - Insecure Default Settings
 - Lack of Physical Hardening
-De volgende categorieën worden hier onder kort uitgelegd.
+De volgende categorieën worden hier onder kort uitgelegd, en bij elke opdracht wordt hier de kwetsbaarheid uitgelegd.
 
 I1 - Weak, Guessable, or Hardcoded Passwords
 -------
 Er is gebruikgemaakt van een makkelijke brute force, publieke beschikbare informatie of wachtwoorden die gemakkelijk te raden zijn. Ook is een backdoor in de firmware mogelijk of client software die ongeautoriseerde toegang verleent tot systemen die in gebruik zijn.
 
-[1.1]  Serial leak (& web server users leak & encryption leak) - SUB
+Opdracht 1 - Serial leak (& web server users leak & encryption leak) 
 -------
 De seriele console wordt vaak gebruikt bij het testen van software op microchips. De debug berichten kunnen gevoelige data bevatten zoals: gebruikersnamen en wachtwoorden. Dit apparaat heeft de mogelijkheid om verschillende commando’s te interpreteren. In dit geval wordt de seriële console niet uitgeschakeld voor de implementatie (deployment), wat kan leiden tot ernstige beveiligingsrisico’s. Vooral wanneer de commando’s kunnen worden uitgevoerd, is de data op het apparaat dan niet veilig.
 
@@ -28,11 +28,11 @@ I2 - Insecure Network services
 Onnodige of onbeveiligde netwerk services die op het apparaat runnen, vooral die blootgesteld zijn aan het internet, die de vertrouwelijkheid, integriteit/authenticatie, of beschikbaarheid van informatie in gevaar brengen. Of toegang tot ongeautoriseerde remote control. Een voorbeeld van een onveilige service kan zijn, een onveilige FTP-service in een IoT-apparaat dat gebruikmaakt van hardgecodeerde inloggegevens, door dat te misbruiken kan jij willekeurige gegevens lezen en schrijven op een apparaat.
 
 
-[2.1] Cross-site request forgery - SUB
+Opdracht 2 - Cross-site request forgery 
 ---------
 Cross-site Request forgery is een aanval waarbij een gebruiker ongewenste acties kan uitvoeren op een webapplicatie. De applicatie waarmee jij de LED van de ESP-chip uit en aan kan zetten is kwetsbaar voor Cross-site request forgery (CSRF).
 
-[2.2] BotLED - SUB
+Opdracht 3 - BotLED 
 ---------
 De LED-controller heeft een functie die oproepbaar is, waarmee jij controle hebt over de LED lichten. In deze challenge is jouw doel om controle te krijgen over de ESP en de LED lichten te manipuleren.
 
@@ -40,11 +40,11 @@ I3 - Insecure EcoSystem Interfaces
 --------
 Onveilige web, backend API, cloud, of mobiele interfaces in het ecosysteem buiten het apparaat kunnen ervoor zorgen dat het apparaat of de bijbehorende componenten gehackt kunnen worden. Veelvoorkomende problemen zijn onder andere het ontbreken van authenticatie/autorisatie, geen of zwakke versleuteling, en het ontbreken van het filteren van invoer (input) en uitvoer (output).
 
-[3.1] Encryption leak - SUB
+Opdracht 4 - Encryption leak
 ----------
 CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok wordt gecombineerd met een initialisatievector voordat het wordt versleuteld. De decryptie werkt op dezelfde manier met gecodeerde (ciphered) tekst. Deze kwetsbaarheid gaat over het vinden van de sleutel en het decrypten van het bestand ermee. Tip: om de vulnerability te exploiteren moet jij superuser worden.
 
-[3.2] Buffer overflow - SUB
+Opdracht 5 - Buffer overflow 
 ---------------
 Vroeger kwamen buffer overflows vaak voor. Tegenwoordig zijn de meeste software zo geschreven dat een buffer overflow niet meer mogelijk is. Bij microchips zoals een ESP-apparaat kunnen buffer overflows nog steeds voorkomen. Een buffer overflow treedt op wanneer de hoeveelheid gegevens groter is dan de opslagcapaciteit van de memory buffer. Als gevolg hiervan probeert het programma dat de gegevens naar de buffer schrijft, per ongeluk aangrenzende geheugenlocaties overschrijden.
 Bijvoorbeeld een buffer voor inloggegevens kan ontworpen zijn om gebruikersnaam en wachtwoord inputs van 8 bytes te verwachten, dus als er een transactie is met een invoer van 10 bytes, kan het programma de overtollige gegevens voorbij de buffergrens schrijven.
@@ -54,8 +54,8 @@ I4 - Lack Of Secure Update Mechanism
 -----------------
 IoT apparaten zijn meestal vaak goedkoop, energiezuinig en gebruiksvriendelijk ontworpen, wat kan leiden tot het missen van beveiligingsmaatregelen. Het ontbreken van een veilig update mechanisme maakt het IoT apparaat kwetsbaar en exploiteerbaar. Aanvallers kunnen misbruik maken van verouderde firmware of software om de beveiliging van het apparaat in gevaar te brengen.
 
-[4.1] Exploitable configuration upload & download - SUB
----------------
+Opdracht 6 - Exploitable configuration upload & download 
+--------------
 Er is een configuratiebestand ergens verborgen op de webserver. Deze configuratie kan geback-upt en hersteld worden. Het back-uppen en herstellen is niet op de juiste manier beveiligd. Probeer hier misbruik van te maken.
 
 I5 - Use Of Insecure or Outdated Components
