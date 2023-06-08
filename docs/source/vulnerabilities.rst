@@ -19,7 +19,9 @@ I1 - Weak, Guessable, or Hardcoded Passwords
 -------
 Er is gebruikgemaakt van een makkelijke brute force, publieke beschikbare informatie of wachtwoorden die gemakkelijk te raden zijn. Ook is een backdoor in de firmware mogelijk of client software die ongeautoriseerde toegang verleent tot systemen die in gebruik zijn.
 
-Opdracht 1 - Serial leak (& web server users leak & encryption leak) 
+.. _vulnerabilities:
+
+Vind de root wachtwoord - Serial leak (& web server users leak & encryption leak)
 -------
 De seriele console wordt vaak gebruikt bij het testen van software op microchips. De debug berichten kunnen gevoelige data bevatten zoals: gebruikersnamen en wachtwoorden. Dit apparaat heeft de mogelijkheid om verschillende commando’s te interpreteren. In dit geval wordt de seriële console niet uitgeschakeld voor de implementatie (deployment), wat kan leiden tot ernstige beveiligingsrisico’s. Vooral wanneer de commando’s kunnen worden uitgevoerd, is de data op het apparaat dan niet veilig.
 
