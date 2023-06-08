@@ -15,5 +15,5 @@ Kijk hier voor `Hints <hints.rst>`_
 Schakel de ESP-LED uit (CSRF) - Medium
 ------------
 De website die je gebruikt is kwetsbaar voor Cross-site request forgery (CSRF) uitleg hier:  `CSRF <vulnerabilities.rst#vulnerabilities2>`_. Aan jou de taak is om een kwaadaardige HTML-pagina te maken. De webpagina moet de ESP op het juiste IP-adres oproepen en je moet een optie maken, waarmee de LED aan of uit gaat wanneer je de HTML-pagina opent.
-`hints <hints.rst>`_ 
+`Hints <hints.rst>`_ 
 
