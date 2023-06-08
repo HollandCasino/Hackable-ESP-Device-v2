@@ -9,4 +9,4 @@ Dit is een walkthrough waarbij je leert hoe je een ESP-apparaat kunt hacken. De 
 Vind de root wachtwoord - Easy 
 -----------
 Jouw doel is om de root wachtwoord te vinden. Het apparaat maakt gebruik van een seriele console waarop debugberichten worden weergegeven.  Dit apparaat heeft de mmogelijkheid om meerdere commando's te interpreteren.
-Kijk hier <vulnerabilities.rst#vulnerabilities>'_. voor uitleg over de kwetsbaarheid.
+Kijk hier 'voor uitleg over de kwetsbaarheid <vulnerabilities.rst#vulnerabilities>'_. 
