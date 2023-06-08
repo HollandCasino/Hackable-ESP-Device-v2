@@ -38,11 +38,11 @@ I3 - Insecure EcoSystem Interfaces
 --------
 Onveilige web, backend API, cloud, of mobiele interfaces in het ecosysteem buiten het apparaat kunnen ervoor zorgen dat het apparaat of de bijbehorende componenten gehackt kunnen worden. Veelvoorkomende problemen zijn onder andere het ontbreken van authenticatie/autorisatie, geen of zwakke versleuteling, en het ontbreken van het filteren van invoer (input) en uitvoer (output).
 
-Opdracht 4 - Encryption leak
+Vind de AES Keys
 ----------
 CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok wordt gecombineerd met een initialisatievector voordat het wordt versleuteld. De decryptie werkt op dezelfde manier met gecodeerde (ciphered) tekst. Deze kwetsbaarheid gaat over het vinden van de sleutel en het decrypten van het bestand ermee. Tip: om de vulnerability te exploiteren moet jij superuser worden.
 
-Opdracht 5 - Buffer overflow 
+Word een superuser
 ---------------
 Vroeger kwamen buffer overflows vaak voor. Tegenwoordig zijn de meeste software zo geschreven dat een buffer overflow niet meer mogelijk is. Bij microchips zoals een ESP-apparaat kunnen buffer overflows nog steeds voorkomen. Een buffer overflow treedt op wanneer de hoeveelheid gegevens groter is dan de opslagcapaciteit van de memory buffer. Als gevolg hiervan probeert het programma dat de gegevens naar de buffer schrijft, per ongeluk aangrenzende geheugenlocaties overschrijden.
 Bijvoorbeeld een buffer voor inloggegevens kan ontworpen zijn om gebruikersnaam en wachtwoord inputs van 8 bytes te verwachten, dus als er een transactie is met een invoer van 10 bytes, kan het programma de overtollige gegevens voorbij de buffergrens schrijven.
@@ -52,7 +52,7 @@ I4 - Lack Of Secure Update Mechanism
 -----------------
 IoT apparaten zijn meestal vaak goedkoop, energiezuinig en gebruiksvriendelijk ontworpen, wat kan leiden tot het missen van beveiligingsmaatregelen. Het ontbreken van een veilig update mechanisme maakt het IoT apparaat kwetsbaar en exploiteerbaar. Aanvallers kunnen misbruik maken van verouderde firmware of software om de beveiliging van het apparaat in gevaar te brengen.
 
-Opdracht 6 - Exploitable configuration upload & download 
+Upload een file in de website - Exploitable configuration upload & download
 --------------
 Er is een configuratiebestand ergens verborgen op de webserver. Deze configuratie kan geback-upt en hersteld worden. Het back-uppen en herstellen is niet op de juiste manier beveiligd. Probeer hier misbruik van te maken.
 
