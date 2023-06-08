@@ -34,10 +34,6 @@ Schakel de ESP-LED uit/aan - Cross-site request forgery
 ---------
 Cross-site Request forgery is een aanval waarbij een gebruiker ongewenste acties kan uitvoeren op een webapplicatie. De applicatie waarmee jij de LED van de ESP-chip uit en aan kan zetten is kwetsbaar voor Cross-site request forgery (CSRF).
 
-Neem controle over de ESP-LED
----------
-De LED-controller heeft een functie die oproepbaar is, waarmee jij controle hebt over de LED lichten. In deze challenge is jouw doel om controle te krijgen over de ESP en de LED lichten te manipuleren.
-
 I3 - Insecure EcoSystem Interfaces
 --------
 Onveilige web, backend API, cloud, of mobiele interfaces in het ecosysteem buiten het apparaat kunnen ervoor zorgen dat het apparaat of de bijbehorende componenten gehackt kunnen worden. Veelvoorkomende problemen zijn onder andere het ontbreken van authenticatie/autorisatie, geen of zwakke versleuteling, en het ontbreken van het filteren van invoer (input) en uitvoer (output).
