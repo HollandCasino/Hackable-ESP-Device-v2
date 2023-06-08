@@ -12,3 +12,6 @@ Jouw doel is om de root wachtwoord te vinden. Het apparaat maakt gebruik van een
 Kijk hier voor `uitleg over de kwetsbaarheid <vulnerabilities.rst#vulnerabilities>`_.
 Kijk hier voor `Hints <hints.rst>`_
 
+Schakel de ESP-LED uit (CSRF) - Medium
+------------
+De website die je gebruikt is kwetsbaar voor Cross-site request forgery (CSRF) uitleg hier:  `CSRF <vulnerabilities.rst#vulnerabilities2>`_.
