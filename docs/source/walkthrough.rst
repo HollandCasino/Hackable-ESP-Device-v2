@@ -12,7 +12,7 @@ Jouw doel is om de root wachtwoord te vinden. Het apparaat maakt gebruik van een
 Kijk hier voor `uitleg over de kwetsbaarheid <vulnerabilities.rst#vulnerabilities>`_.
 Kijk hier voor `Hints <hints.rst>`_
 
-Schakel de ESP-LED uit (CSRF) - Medium
+Schakel de ESP-LED uit - Medium
 ------------
 De website die je gebruikt is kwetsbaar voor Cross-site request forgery (CSRF) uitleg hier:  `CSRF <vulnerabilities.rst#vulnerabilities2>`_. Aan jou de taak is om een kwaadaardige HTML-pagina te maken. De webpagina moet de ESP op het juiste IP-adres oproepen en je moet een optie maken, waarmee de LED aan of uit gaat wanneer je de HTML-pagina opent.
 `Hints <hints.rst>`_ 
