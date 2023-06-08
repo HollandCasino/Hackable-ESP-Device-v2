@@ -29,8 +29,8 @@ I2 - Insecure Network services
 -------
 Onnodige of onbeveiligde netwerk services die op het apparaat runnen, vooral die blootgesteld zijn aan het internet, die de vertrouwelijkheid, integriteit/authenticatie, of beschikbaarheid van informatie in gevaar brengen. Of toegang tot ongeautoriseerde remote control. Een voorbeeld van een onveilige service kan zijn, een onveilige FTP-service in een IoT-apparaat dat gebruikmaakt van hardgecodeerde inloggegevens, door dat te misbruiken kan jij willekeurige gegevens lezen en schrijven op een apparaat.
 
-
-Opdracht 2 - Cross-site request forgery 
+.. _vulnerabilities2:
+Schakel de ESP-LED uit - Cross-site request forgery 
 ---------
 Cross-site Request forgery is een aanval waarbij een gebruiker ongewenste acties kan uitvoeren op een webapplicatie. De applicatie waarmee jij de LED van de ESP-chip uit en aan kan zetten is kwetsbaar voor Cross-site request forgery (CSRF).
 
