@@ -1,6 +1,6 @@
 Walkthrough
 =====
-Voordat je aan de walkthrough begint moet je eerst hier naar kijken -> `Setup <setup.rst>`_
+Voordat je aan de walkthrough begint moet je eerst hier naar kijken > `Setup <setup.rst>`_
 
 Introductie
 -------------
