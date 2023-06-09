@@ -38,10 +38,6 @@ I3 - Insecure EcoSystem Interfaces
 --------
 Onveilige web, backend API, cloud, of mobiele interfaces in het ecosysteem buiten het apparaat kunnen ervoor zorgen dat het apparaat of de bijbehorende componenten gehackt kunnen worden. Veelvoorkomende problemen zijn onder andere het ontbreken van authenticatie/autorisatie, geen of zwakke versleuteling, en het ontbreken van het filteren van invoer (input) en uitvoer (output).
 
-Vind de AES Keys
-----------
-CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok wordt gecombineerd met een initialisatievector voordat het wordt versleuteld. De decryptie werkt op dezelfde manier met gecodeerde (ciphered) tekst. Deze kwetsbaarheid gaat over het vinden van de sleutel en het decrypten van het bestand ermee. Tip: om de vulnerability te exploiteren moet jij superuser worden.
-
 Word een superuser
 ---------------
 Vroeger kwamen buffer overflows vaak voor. Tegenwoordig zijn de meeste software zo geschreven dat een buffer overflow niet meer mogelijk is. Bij microchips zoals een ESP-apparaat kunnen buffer overflows nog steeds voorkomen. Een buffer overflow treedt op wanneer de hoeveelheid gegevens groter is dan de opslagcapaciteit van de memory buffer. Als gevolg hiervan probeert het programma dat de gegevens naar de buffer schrijft, per ongeluk aangrenzende geheugenlocaties overschrijden.
