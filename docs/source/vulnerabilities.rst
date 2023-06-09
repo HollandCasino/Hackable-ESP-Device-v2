@@ -48,10 +48,6 @@ I4 - Lack Of Secure Update Mechanism
 -----------------
 IoT apparaten zijn meestal vaak goedkoop, energiezuinig en gebruiksvriendelijk ontworpen, wat kan leiden tot het missen van beveiligingsmaatregelen. Het ontbreken van een veilig update mechanisme maakt het IoT apparaat kwetsbaar en exploiteerbaar. Aanvallers kunnen misbruik maken van verouderde firmware of software om de beveiliging van het apparaat in gevaar te brengen.
 
-Upload een file in de website - Exploitable configuration upload & download
---------------
-Er is een configuratiebestand ergens verborgen op de webserver. Deze configuratie kan geback-upt en hersteld worden. Het back-uppen en herstellen is niet op de juiste manier beveiligd. Probeer hier misbruik van te maken.
-
 I5 - Use Of Insecure or Outdated Components
 ---------------
 Het gebruik van verouderde of onveilige softwarecomponenten/libraries die het apparaat kwetsbaar kunnen maken. Dit omvat onveilige aanpassingen aan besturingssystemen en het gebruik van software- of hardwarecomponenten van externe partijen uit een toeleveringsketen die aangetast is.
