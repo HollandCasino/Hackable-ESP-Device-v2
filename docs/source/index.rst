@@ -16,7 +16,7 @@ Contents
 .. toctree::
    introductie
    setup
-   vulnerbillities
+   vulnerabilities
    hints
    walkthrough
 
