@@ -21,14 +21,14 @@ Neem controle over de ESP-LED met een script - Medium
 -------------
 De LED-controller heeft een functie die oproepbaar is, waarmee jij controle hebt over de LED lichten. In deze challenge is jouw doel om controle te krijgen over de ESP en de LED lichten te manipuleren. Er staat een script in de github die 'BotLED_skel.py' heet. De control functie mist dus die moet jij zelf erin programmeren.
 
-Vind de AES Keys
+Vind de AES Keys - Medium
 ----------
 CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok wordt gecombineerd met een initialisatievector voordat het wordt versleuteld. De decryptie werkt op dezelfde manier met gecodeerde (ciphered) tekst. Deze kwetsbaarheid gaat over het vinden van de sleutel en het decrypten van het bestand ermee.
 
-Word een superuser
+Word een superuser - Hard
 --------------
 
 
-Upload een file in de website
+Upload een file in de website - Medium
 -------------------------
 Er is een configuratiebestand ergens verborgen op de webserver. Deze configuratie kan geback-upt en hersteld worden. Het back-uppen en herstellen is niet op de juiste manier beveiligd. Probeer hier misbruik van te maken.
