@@ -17,6 +17,18 @@ Schakel de ESP-LED uit/aan - Medium
 De website die je gebruikt is kwetsbaar voor Cross-site request forgery (CSRF) uitleg hier:  `CSRF <vulnerabilities.rst#vulnerabilities2>`_. Aan jou de taak is om een kwaadaardige HTML-pagina te maken. De webpagina moet de ESP op het juiste IP-adres oproepen en je moet een optie maken, waarmee de LED aan of uit gaat wanneer je de HTML-pagina opent.
 `Hints <hints.rst>`_ 
 
-Neem controle over de ESP-LED - Medium
+Neem controle over de ESP-LED met een script - Medium
 -------------
+De LED-controller heeft een functie die oproepbaar is, waarmee jij controle hebt over de LED lichten. In deze challenge is jouw doel om controle te krijgen over de ESP en de LED lichten te manipuleren. Er staat een script in de github die 'BotLED_skel.py' heet. De control functie mist dus die moet jij zelf erin programmeren.
 
+Vind de AES Keys
+----------
+CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok wordt gecombineerd met een initialisatievector voordat het wordt versleuteld. De decryptie werkt op dezelfde manier met gecodeerde (ciphered) tekst. Deze kwetsbaarheid gaat over het vinden van de sleutel en het decrypten van het bestand ermee.
+
+Word een superuser
+--------------
+
+
+Upload een file in de website
+-------------------------
+Er is een configuratiebestand ergens verborgen op de webserver. Deze configuratie kan geback-upt en hersteld worden. Het back-uppen en herstellen is niet op de juiste manier beveiligd. Probeer hier misbruik van te maken.
