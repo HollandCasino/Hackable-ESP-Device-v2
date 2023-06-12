@@ -27,6 +27,9 @@ CBC-modus is een AES-blokversleuteling-modus, waarbij het eerste plain tekstblok
 
 Word een superuser - Hard
 --------------
+Vroeger kwamen buffer overflows vaak voor. Tegenwoordig zijn de meeste software zo geschreven dat een buffer overflow niet meer mogelijk is. Bij microchips zoals een ESP-apparaat kunnen buffer overflows nog steeds voorkomen. Een buffer overflow treedt op wanneer de hoeveelheid gegevens groter is dan de opslagcapaciteit van de memory buffer. Als gevolg hiervan probeert het programma dat de gegevens naar de buffer schrijft, per ongeluk aangrenzende geheugenlocaties overschrijden.
+Bijvoorbeeld een buffer voor inloggegevens kan ontworpen zijn om gebruikersnaam en wachtwoord inputs van 8 bytes te verwachten, dus als er een transactie is met een invoer van 10 bytes, kan het programma de overtollige gegevens voorbij de buffergrens schrijven.
+Als de transactie executable code overschrijft, kan dit ervoor zorgen dat het programma zich onvoorspelbaar gedraagt en kan het leiden tot onjuiste resultaten, geheugentoegang fouten (memory access errors), of crashes. Als de aanvallers de geheugenindeling van programma's kennen, kunnen ze inputs genereren die de buffer niet kan opslaan, waarbij ze deze vervangen door hun eigen code. Bijvoorbeeld: een aanvaller kan de program-pointer (een object dat naar een ander geheugenbereik wijst) en deze richten op een exploit-payload, om zo controle over het programma te krijgen. Jouw doel is om dus superuser te worden zonder een wachtwoord.
 
 
 Upload een file in de website - Medium
